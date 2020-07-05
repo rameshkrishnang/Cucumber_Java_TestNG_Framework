@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Create a New Customer",
+        "description": "",
+        "id": "new-customer-creation;create-a-new-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13045514900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open the Crater web application",
+            "match": {
+              "location": "Login_StepDefs.i_open_the_crater_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95424600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I validate the Login Page is displayed",
+            "match": {
+              "location": "Login_StepDefs.i_validate_the_login_page_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1158135100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login as admin user",
+            "match": {
+              "location": "Login_StepDefs.i_login_as_admin_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1499158700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate the Crater Admin Dashboard is displayed",
+            "match": {
+              "location": "AdminDashboard_StepDefs.i_validate_the_crater_admin_dasnboard_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "New Customer Creation",
+    "description": "",
+    "id": "new-customer-creation",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/CreateNewCustomer.feature"
+  }
+]
