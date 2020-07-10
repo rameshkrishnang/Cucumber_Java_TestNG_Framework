@@ -5,7 +5,7 @@
 	<test name="FREE CRM Test" annotations="JDK"
 		preserve-order="true">
 		<classes>
-			<class name="Runner.TestRunner" />
+			<class name="runner.TestRunner" />
 		</classes>
 	</test>
 </suite>

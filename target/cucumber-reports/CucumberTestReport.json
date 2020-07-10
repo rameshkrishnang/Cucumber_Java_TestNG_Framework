@@ -3,6 +3,7 @@
     "line": 1,
     "elements": [
       {
+        "start_timestamp": "2020-07-10T12:01:05.639Z",
         "line": 3,
         "name": "Create a New Customer",
         "description": "",
@@ -12,49 +13,49 @@
         "steps": [
           {
             "result": {
-              "duration": 13045514900,
+              "duration": 12623765500,
               "status": "passed"
             },
             "line": 4,
             "name": "I open the Crater web application",
             "match": {
-              "location": "Login_StepDefs.i_open_the_crater_web_application()"
+              "location": "stepDefinitions.Login_StepDefs.i_open_the_crater_web_application()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 95424600,
+              "duration": 113696900,
               "status": "passed"
             },
             "line": 5,
             "name": "I validate the Login Page is displayed",
             "match": {
-              "location": "Login_StepDefs.i_validate_the_login_page_is_displayed()"
+              "location": "stepDefinitions.Login_StepDefs.i_validate_the_login_page_is_displayed()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1158135100,
+              "duration": 1175382600,
               "status": "passed"
             },
             "line": 6,
             "name": "I login as admin user",
             "match": {
-              "location": "Login_StepDefs.i_login_as_admin_user()"
+              "location": "stepDefinitions.Login_StepDefs.i_login_as_admin_user()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1499158700,
+              "duration": 998352300,
               "status": "passed"
             },
             "line": 7,
             "name": "I validate the Crater Admin Dashboard is displayed",
             "match": {
-              "location": "AdminDashboard_StepDefs.i_validate_the_crater_admin_dasnboard_is_displayed()"
+              "location": "stepDefinitions.AdminDashboard_StepDefs.i_validate_the_crater_admin_dasnboard_is_displayed()"
             },
             "keyword": "And "
           }
@@ -65,6 +66,77 @@
     "description": "",
     "id": "new-customer-creation",
     "keyword": "Feature",
-    "uri": "src/test/java/features/CreateNewCustomer.feature"
+    "uri": "file:src/test/resources/features/CreateNewCustomer.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-10T12:01:20.570Z",
+        "line": 3,
+        "name": "Create a New Customer",
+        "description": "",
+        "id": "new-customer-creation;create-a-new-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12366759300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open the Crater web application",
+            "match": {
+              "location": "stepDefinitions.Login_StepDefs.i_open_the_crater_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 105716600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I validate the Login Page is displayed",
+            "match": {
+              "location": "stepDefinitions.Login_StepDefs.i_validate_the_login_page_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1127005400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login as admin user",
+            "match": {
+              "location": "stepDefinitions.Login_StepDefs.i_login_as_admin_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1316005900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate the Crater Admin Dashboard is displayed",
+            "match": {
+              "location": "stepDefinitions.AdminDashboard_StepDefs.i_validate_the_crater_admin_dasnboard_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "New Customer Creation",
+    "description": "",
+    "id": "new-customer-creation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CreateNewCustomer_Test.feature",
+    "tags": []
   }
 ]

@@ -1,16 +1,12 @@
 package commonUtils;
 
-import Runner.TestRunner;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import java.util.concurrent.TimeUnit;
-
-public class CommonExecutors extends TestRunner implements Executors {
+public class CommonExecutors extends BaseClass implements Executors {
 
     public void verifyPageTitle(String expected_title) {
         String actualTitle = driver.getTitle();

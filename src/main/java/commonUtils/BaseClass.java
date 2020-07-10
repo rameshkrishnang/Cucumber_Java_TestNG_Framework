@@ -91,7 +91,7 @@ public class BaseClass {
 
 	public void Property(){
 		try {
-			File file = new File("src\\test\\java\\resources\\default.properties");
+			File file = new File("src\\test\\resources\\default.properties");
 			FileInputStream fis = new FileInputStream(file);
 			config.load(fis);
 		}
